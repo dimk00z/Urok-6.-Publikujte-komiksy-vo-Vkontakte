@@ -15,8 +15,8 @@ https://oauth.vk.com/authorize?client_id={client_id_приложения}&displa
 Так же нужно получить id вашей группы ВК - http://regvk.com/id/
 После регистрации создайте текстовый файл .env, в который запишите следующее:
 ```
-group_id=id_вашей_группы
-user_access_token==ваш_access_token
+VK_GROUP_ID=id_вашей_группы
+VK_USER_ACCESS_TOKEN=ваш_access_token
 ```
 
 Для запуска в консоли:
